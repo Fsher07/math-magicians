@@ -11,7 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <CalculatorUI value={0} />
+        <CalculatorUI />
       </div>
     );
   }

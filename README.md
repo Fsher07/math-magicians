@@ -17,6 +17,9 @@
 -To run the project locally, clone the project, and follow the commands below in order:
 
 ```
+npm install
+```
+```
 npm start
 ```
 Runs the app in the development mode.\
