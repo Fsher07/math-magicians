@@ -49,3 +49,32 @@
   grid-column: 1 / span 2;
   width: 100%;
 }
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navList {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  align-items: center;
+  margin-right: 2em;
+}
+
+.navList li {
+  border-right: 1px solid black;
+  padding-right: 15px
+}
+
+a {
+  color: rgb(27, 113, 166);
+}
+
+.quote {
+  margin: 0 auto;
+  width: 70%;
+  font-size: 1.5em;
+  font-weight: bold;
+}
