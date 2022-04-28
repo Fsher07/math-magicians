@@ -19,7 +19,13 @@ const CalculatorUI = () => {
   return (
     <>
       <div className="calculator-page">
-        <h3>Let&apos;s do some math!</h3>
+        <div className="calculator-page-intro">
+          <h3 className="calculator-title">Let&apos;s do some math!</h3>
+          <p>
+            You can calculate the time it takes to achieve your dreams
+            using the calculator on the left.
+          </p>
+        </div>
         <div className="calculator">
           <div className="calculator-display-value">
             {total}

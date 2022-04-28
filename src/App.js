@@ -19,9 +19,9 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Navbar />
         <div className="App">
           <Router>
+            <Navbar />
             <Routes>
               <Route path="/calculator" element={<CalculatorUI />} />
               <Route path="/" element={<Home />} />
