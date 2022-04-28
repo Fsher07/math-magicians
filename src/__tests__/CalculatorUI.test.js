@@ -1,7 +1,7 @@
 import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
-import Calculator from '../components/CalculatorUI';
+import { render, screen } from '@testing-library/react';
 import renderer from 'react-test-renderer';
+import Calculator from '../components/CalculatorUI';
 
 describe('Calculator', () => {
   test('should render calculator', () => {
