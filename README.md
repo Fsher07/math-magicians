@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Fsher07/math-magicians/)
+[Live Demo Link](https://dynamic-bavarois-356c3e.netlify.app)
 
 ## How to Setup
 
